@@ -9,20 +9,20 @@ body {
 }
 
 /* Removing period in front of header since it is not a class anymore */
-header {
+.header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
 }
 /* Removing period in front of header since it is not a class anymore */
-header h1 {
+.header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
 /* Replacing .header div with nav */
-nav {
+.header nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -30,11 +30,11 @@ nav {
     font-size: 20px;
 }
 
-nav ul {
+.header nav ul {
     list-style-type: none;
 }
 
-nav ul li {
+.header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
@@ -84,49 +84,17 @@ p {
     background-color: #2589bd;
 }
 
-.benefit-lead {
+.format-benefit {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-.benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-cost {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-lead h3 {
+.format-benefit h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-.benefit-brand h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-cost h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-lead img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-brand img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-cost img {
+.format-benefit img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
@@ -154,13 +122,13 @@ p {
 }
 
 /* Removing period from footer since it is not a class anymore */
-footer {
+.footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
 
-footer h2 {
+.footer h2 {
     font-size: 20px;
 }
