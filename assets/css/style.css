@@ -8,20 +8,18 @@ body {
     background-color: #d9dcd6;
 }
 
-/* Removing period in front of header since it is not a class anymore */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
 }
-/* Removing period in front of header since it is not a class anymore */
 .header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
-/* Replacing .header div with nav */
+/* Replacing .header div with .header nav */
 .header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -83,17 +81,19 @@ p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
 }
-
+/* Combining all image formatting in benefit */
 .format-benefit {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
+/* Combining all h3 header formatting in benefit */
 .format-benefit h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
+/* Combining all image formatting in content */
 .format-benefit img {
     display: block;
     margin: 10px auto;
@@ -121,7 +121,6 @@ p {
     font-size: 36px;
 }
 
-/* Removing period from footer since it is not a class anymore */
 .footer {
     padding: 30px;
     clear: both;
